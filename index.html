@@ -13,9 +13,12 @@
       color: #1a1a1a;
       line-height: 1.6;
     }
-    img.logo { width: 120px; display: block; margin: 0 auto 24px; }
+    img.logo { width: 140px; display: block; margin: 0 auto 24px; }
     hr { border: none; border-top: 1px solid #ddd; margin: 24px 0; }
-    h1 { font-size: 2rem; margin-bottom: 0.25em; }
+    .header { text-align: center; }
+    h1 { font-size: 2.75rem; margin-bottom: 0.1em; letter-spacing: -0.02em; }
+    .tagline { font-size: 1.15rem; color: #1a5fb4; font-weight: 500; margin-bottom: 0.75em; }
+    .intro { font-size: 1.05rem; color: #444; max-width: 480px; margin: 0 auto; }
     h2 { font-size: 1.25rem; margin-top: 40px; margin-bottom: 8px; }
     p { color: #444; }
     a { color: #1a5fb4; }
@@ -25,8 +28,11 @@
 <body>
   <img class="logo" src="logos/riverforge_clear.png" alt="Riverforge logo">
   <hr>
-  <h1>Riverforge</h1>
-  <p>Riverforge LLC builds mobile applications, publishes original fiction, and provides IT consulting services. Based in Tempe, Arizona.</p>
+  <div class="header">
+    <h1>Riverforge</h1>
+    <p class="tagline">Riverforge LLC. Where software, stories, and systems meet.</p>
+    <p class="intro">Riverforge LLC builds mobile applications, publishes original fiction, and provides IT consulting services. Based in Tempe, Arizona.</p>
+  </div>
 
   <h2>Apps</h2>
   <p>We build mobile apps that capture your data and keep it entirely on your device. No ads, no tracking, no external servers, nothing leaves your phone unless you choose to export it.</p>
